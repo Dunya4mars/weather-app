@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1485" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.169" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_broken_clouds.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_broken_clouds_night.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_clear_sky.xml" value="0.1" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_clear_sky_night.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_few_clouds.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_few_clouds_night.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_humidity.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_mist_night.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_rain.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_shower_rain.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_shower_rain_night.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_snow.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_snow_night.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_thunderstrom.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_thunderstrom_night.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/ic_windy.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/pager_indicator_selected.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/selector_pager_indicator.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/shape_main_afternoon_background.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/shape_main_evening_background.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/shape_main_morning_background.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/drawable/shape_transparent_rounded_background.xml" value="0.171" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/layout/activity_settings.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/layout/fragment_primary_weather_info.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/layout/fragment_secondary_weather_info.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/layout/item_day_forecast.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Win7/AndroidStudioProjects/weatherapp/app/src/main/res/layout/item_hour_forecast.xml" value="0.20208333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

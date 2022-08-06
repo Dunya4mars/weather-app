@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/shape_main_morning_background"
+    tools:context=".ui.MainActivity">
+
+    <!-- Current city -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@color/design_default_color_on_primary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/shape_main_morning_background"
+        app:title="Weather Forecasts" />
+
+    <ImageView
+        android:id="@+id/imageLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/ic_baseline_location_on_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_name" />
+
+    <TextView
+        android:id="@+id/test_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/text_primary"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageLocation"
+        app:layout_constraintStart_toEndOf="@+id/imageLocation"
+        app:layout_constraintTop_toTopOf="@+id/imageLocation" />
+    <!-- High & Low temperature for today   -->
+
+    <TextView
+        android:id="@+id/test_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-light"
+        android:text=" °"
+        android:hint="45"
+        android:textColorHint="@color/text_primary"
+        android:textColor="@color/text_primary"
+        android:textSize="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageLocation" />
+
+    <TextView
+        android:id="@+id/temperature_unit_f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="F"
+        android:textColor="@color/text_primary"
+        android:textSize="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/test_temperature"
+        app:layout_constraintStart_toEndOf="@+id/test_temperature"
+        app:layout_constraintTop_toTopOf="@+id/test_temperature" />
+    <ImageButton
+        android:id="@+id/button_fetch"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_search_24"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolBar" />
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="country"
+        android:lines="1"
+        android:maxLength="16"
+        android:textColor="@color/text_primary"
+        app:layout_constraintBottom_toBottomOf="@+id/button_fetch"
+        app:layout_constraintEnd_toStartOf="@+id/button_fetch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_fetch" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="166dp" />
+
+
+    <!-- Today's date -->
+
+    <!-- Icon indicating weather condition -->
+
+    <!-- Text that describes weather condition -->
+
+    <!-- Today's temperature -->
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="Today "
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/text_primary"
+        android:textSize="@dimen/weather_info_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/test_city"
+        app:layout_constraintTop_toTopOf="@+id/test_city" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/weather_icon"-->
+<!--        android:layout_width="128dp"-->
+<!--        android:layout_height="136dp"-->
+
+<!--        android:adjustViewBounds="true"-->
+<!--        android:src="@drawable/ic_few_clouds"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/test_temperature" />-->
+
+    <!-- This guideline divides the layout into a left and right parts and used for alignment -->
+
+
+    <!-- Humidity label -->
+
+    <!-- Humidity measurement -->
+
+    <!-- Pressure label -->
+
+    <TextView
+        android:id="@+id/weather_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="@color/text_primary"
+        android:textSize="@dimen/weather_info_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animation_weather" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/high_low_temperature"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="sans-serif-light"-->
+<!--        android:text="19° \\ 10°"-->
+<!--        android:textColor="@color/text_primary"-->
+
+<!--        android:textSize="36sp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/animation_weather" />-->
+
+    <TextView
+        android:id="@+id/humidity_label"
+        style="@style/ExtraDetailLabel"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_humidity"
+        android:drawablePadding="@dimen/small_space"
+        android:text="@string/humidity_label"
+        app:layout_constraintStart_toStartOf="@+id/pressure_label"
+        app:layout_constraintTop_toBottomOf="@+id/pressure_label" />
+
+    <TextView
+        android:id="@+id/humidity"
+        style="@style/ExtraDetailsValue"
+        android:layout_marginStart="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/humidity_label"
+        app:layout_constraintStart_toStartOf="@+id/horizontal_middle"
+        app:layout_constraintTop_toTopOf="@+id/humidity_label"
+        app:layout_constraintVertical_bias="1.0"
+        android:text=" " />
+
+    <!-- Pressure measurement -->
+
+    <!-- Wind label -->
+
+    <!-- Wind measurement -->
+
+    <TextView
+        android:id="@+id/pressure_label"
+        style="@style/ExtraDetailLabel"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_pressure"
+        android:drawablePadding="@dimen/small_space"
+        android:text="@string/pressure_label"
+        app:layout_constraintStart_toStartOf="@+id/wind_label"
+        app:layout_constraintTop_toBottomOf="@+id/wind_label" />
+
+    <TextView
+        android:id="@+id/pressure"
+        style="@style/ExtraDetailsValue"
+        android:layout_marginStart="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/pressure_label"
+        app:layout_constraintStart_toStartOf="@+id/horizontal_middle"
+        app:layout_constraintTop_toTopOf="@+id/pressure_label"
+        app:layout_constraintVertical_bias="1.0"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/wind_label"
+        style="@style/ExtraDetailLabel"
+        android:layout_width="77dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:drawableStart="@drawable/ic_windy"
+        android:drawablePadding="@dimen/small_space"
+        android:text="@string/wind_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weather_description" />
+    <TextView
+        android:id="@+id/wind_measurement"
+        style="@style/ExtraDetailsValue"
+        android:layout_marginStart="60dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/wind_label"
+        app:layout_constraintStart_toStartOf="@+id/horizontal_middle"
+        app:layout_constraintTop_toTopOf="@+id/wind_label"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_weather"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="288dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/ic_weather_lottie" />
+</androidx.constraintlayout.widget.ConstraintLayout>
